@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.button-style {
+    background-color: #289BDE;
+    color: white;
+}
+
+
+/* --------------------
+nav-bar styles
+-----------------------*/
+.eduhub-style {
+    color: #3E3E3E;
+}
+
+.nav-items-style {
+    color: #3E3E3E;
+}
+
+.reg-button {
+    color: #289BDE;
+    border: 2px solid #289BDE;
+}
+
+.reg-button:hover {
+    background-color: #289BDE;
+    color: white;
+    border: 2px solid #1082c4;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+
+
+/* -----------------------
+    Responsive styles
+---------------------------*/

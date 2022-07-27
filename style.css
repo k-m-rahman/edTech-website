@@ -11,17 +11,22 @@ body {
 
 }
 
-
-
 .button-style {
     background-color: #289BDE;
     color: white;
 }
 
+.button-style:hover {
+    background-image: linear-gradient(to right, #1a80bb, #289BDE);
+}
 
 /* --------------------
 nav-bar styles
 -----------------------*/
+nav {
+    background-color: #F8F9FA;
+}
+
 .eduhub-style {
     color: #3E3E3E;
 }
@@ -43,9 +48,36 @@ nav-bar styles
     transition: 0.3s;
 }
 
+/* -----------------------
+    carousel styles
+---------------------------*/
+
+.top-banner-heading {
+    font-size: 5vw;
+
+}
+
+.slider-button {
+    transform: scale(1.5);
+    background-color: rgb(208, 205, 205, 0.5);
+
+}
 
 
 
 /* -----------------------
     Responsive styles
 ---------------------------*/
+
+
+
+/* mobile device  */
+@media screen and (max-width: 767px) {
+    .top-banner-heading {
+        font-size: 6vw;
+    }
+
+    .top-banner-details {
+        font-size: 3vw;
+    }
+}

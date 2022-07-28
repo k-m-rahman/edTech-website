@@ -82,6 +82,13 @@ nav {
 }
 
 
+/* FAQ styles  */
+
+.FAQ {
+    width: 60%;
+}
+
+
 
 /* -----------------------
     Responsive styles
@@ -97,5 +104,11 @@ nav {
 
     .top-banner-details {
         font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .FAQ {
+        width: 100%;
     }
 }

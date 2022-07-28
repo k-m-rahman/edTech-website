@@ -89,6 +89,16 @@ nav {
 }
 
 
+/* footer style  */
+
+.links:hover {
+    transform: scale(1.5);
+    color: rgb(198, 141, 255);
+    transition: 0.3s;
+
+}
+
+
 
 /* -----------------------
     Responsive styles

@@ -14,10 +14,15 @@ body {
 .button-style {
     background-color: #289BDE;
     color: white;
+    font-weight: 600;
 }
 
 .button-style:hover {
     background-image: linear-gradient(to right, #1a80bb, #289BDE);
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: white;
+    border: 1.5px solid #1a3341;
 }
 
 /* --------------------

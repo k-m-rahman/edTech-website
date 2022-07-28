@@ -117,6 +117,8 @@ nav {
     }
 }
 
+
+/* for FAQ section width  */
 @media screen and (max-width: 992px) {
     .FAQ {
         width: 100%;
